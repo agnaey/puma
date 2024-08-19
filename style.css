@@ -1,0 +1,133 @@
+body{
+    overflow-x: hidden;
+  }
+  #topslide{
+
+    color: white;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center;    background-color: rgb(138,115,80);
+
+  }
+#nav{
+    color: white;
+}
+
+  #fixed{
+      position: fixed;
+      bottom: 80px;
+      right: -150px;
+      width: 300px;
+  }
+  #nav1{
+    background-color: black;
+  }
+
+  #logo{
+    margin-left: 70px;
+  }
+#nav2{
+    background-color: rgb(67,69,131);
+}
+#offer{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+}
+#offer1{
+    color: white;
+}
+
+.main{
+    padding-bottom: 30px;
+  }
+  .fixed{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+  }
+  .content{
+    background-image: url(media/puma.jpg);
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+    height: 75vh;
+  }
+  
+  .c1{
+    margin-left: 37%;
+    padding-top: 5%;
+  }
+
+  .c1 h4{
+    font-size: 34px;
+    font-weight: 500;
+    margin-top: 100px;
+    color: #fff;
+    padding: 1%;
+    padding-left: 5%;
+  
+  }
+  #btn{
+    border: 1px solid black;
+    color: black;
+    padding: 10px 25px;
+    text-decoration: none;
+    background-color: whitesmoke;
+  }
+
+
+
+  
+  .pro-section {
+    background-color: #2b5e57;
+    color: white;
+    padding: 50px 0;
+}
+
+.pro-text {
+    padding: 20px;
+}
+
+.pro-title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.pro-subtitle {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.pro-buttons .btn {
+    margin-right: 15px;
+    padding: 10px 20px;
+    font-size: 14px;
+}
+
+.pro-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+  @media screen and (max-width: 900PX){
+     #social{
+     padding-left:100% ;
+     }
+   }
+   
+   @media screen and (max-width: 900PX){
+    #logo{
+    padding:20px ;
+    }
+  }
+  
+  /* @media screen and (max-width: 900PX){
+   #menu {
+    margin-left: 0;
+    }
+  } */
