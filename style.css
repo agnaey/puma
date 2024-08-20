@@ -12,6 +12,7 @@ body{
     color: white;
 }
 
+
   #fixed{
       position: fixed;
       bottom: 80px;
@@ -28,6 +29,7 @@ body{
   }
 #nav2{
     background-color: rgb(67,69,131);
+    padding: 1%;
 }
 #offer{
     color: white;
@@ -85,6 +87,7 @@ body{
     position: relative;
     color: white;
     padding: 50px 0;
+    padding-bottom: 33%;
 }
 
 .pro-text {
@@ -114,13 +117,54 @@ body{
 } */
 #img2{
   width: 50%;
+  right: 1%;
   position:absolute ;
+  height: 100%;
 }
+/* @media screen and (max-width: 900PX){
+  #img2{
+  left:50% ;
+  height: 70%;
+
+  }
+} */
 #img3{
-  width: 50%;
+  width: 38%;
   position: absolute;
-  left: 5%;
+  top: 40%;
+  left: 15%;
   z-index: 2;
+  height: 65%;
+}
+/* @media screen and (max-width: 900PX){
+  #img3{
+    top: 57%;
+  height: 70%;
+
+  }
+} */
+#text2{
+  font-size: 20px;
+}
+#div4{
+  margin-top: 10%;
+  background-color: rgb(17, 16, 16);
+}
+#btn1{
+  color: white;
+  background-color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+#div5{
+  padding-left: 23%;
+}
+.text3{
+  font-size: 20px;;
+}
+.text4{
+  font-size: 15px;
 }
 
 
@@ -128,15 +172,18 @@ body{
 
 
 
-  @media screen and (max-width: 900PX){
+
+
+  @media screen and (max-width: 1200PX){
      #social{
      padding-left:100% ;
+        display: none !important;
      }
    }
    
    @media screen and (max-width: 900PX){
     #logo{
-    padding:20px ;
+    width: 10%;
     }
   }
   
