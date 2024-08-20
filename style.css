@@ -2,7 +2,7 @@ body{
     overflow-x: hidden;
   }
   #topslide{
-
+    font-size: 18px;
     color: white;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;    background-color: rgb(138,115,80);
@@ -20,6 +20,7 @@ body{
   }
   #nav1{
     background-color: black;
+    padding: 1%;
   }
 
   #logo{
@@ -81,6 +82,7 @@ body{
   
   .pro-section {
     background-color: #2b5e57;
+    position: relative;
     color: white;
     padding: 50px 0;
 }
@@ -105,10 +107,22 @@ body{
     font-size: 14px;
 }
 
-.pro-image img {
+/* .pro-image img {
     max-width: 100%;
     height: auto;
+    position: absolute;
+} */
+#img2{
+  width: 50%;
+  position:absolute ;
 }
+#img3{
+  width: 50%;
+  position: absolute;
+  left: 5%;
+  z-index: 2;
+}
+
 
 
 
