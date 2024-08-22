@@ -177,14 +177,55 @@ body{
 #div6{
   background-color: rgb(223,213,207);
 }
+#div7{
+  background-color: rgb(5, 5, 5);
+}
 .text5{
   font-size: 15px;
   color: #000;
 }
 
 #splitimgs{
-  background-color: #272525;
+  background-color: #1d1c1c;
 }
+
+.scroll-container {
+  display: flex;
+  overflow-x: scroll; /* Ensure horizontal scrolling */
+  overflow-y: hidden; /* Hide vertical scrolling */
+  padding: 20px 0;
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+.card {
+  flex: 0 0 auto;
+  margin-right: 20px;
+  width: 200px; /* Set your desired width */
+  scroll-snap-align: start; /* For smooth snapping */
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.scroll-container::-webkit-scrollbar {
+  height: 6px; 
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: #8a8787; /* Color of the scrollbar */
+  border-radius: 20px; /* Round edges of scrollbar */
+}
+
+.scroll-container::-webkit-scrollbar {
+  background-color: #d3cccc; /* Darker on hover */
+}
+
+
+
+
+
 
 
 
