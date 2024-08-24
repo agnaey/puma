@@ -12,9 +12,16 @@ body{
     color: white;
 }
 
-nav li a{
+#ok{
   color: #8a8787;
+  text-decoration: none;
 }
+
+/*
+.nav-link:hover .subnav1{
+  background-color: #201f1f;
+  display: block;
+} */
 
 nav li a:hover{
   text-decoration: underline;
