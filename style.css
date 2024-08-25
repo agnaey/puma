@@ -69,7 +69,7 @@ nav li a:hover{
     z-index: 10;
   }
   .content{
-    background-image: url(media/puma.jpg);
+    background-image: url(media/zjcogvpd.png);
     background-position: 50%;
     background-size: cover;
     position: relative;
@@ -77,8 +77,8 @@ nav li a:hover{
   }
   
   .c1{
-    margin-left: 37%;
-    padding-top: 5%;
+    margin-left:70%;
+    padding-top: 8%;
   }
 
   .c1 h4{
@@ -91,6 +91,7 @@ nav li a:hover{
   
   }
   #btn{
+   
     border: 1px solid black;
     color: black;
     padding: 10px 25px;

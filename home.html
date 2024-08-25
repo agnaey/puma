@@ -9,27 +9,121 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script> 
     $(document).ready(function(){
+      var visible = false;
       $("#flip").click(function(){
-        $("#panel").slideDown("slow");
+        if(visible){
+          $("#panel").slideUp("slow");
+          visible = false;
+        } else {
+          $("#panel").slideDown("slow");
+          visible = true;
+        }
       });
- 
+    });
+
+    $(document).ready(function(){
+      var visible = false;
+      $("#flip1").click(function(){
+        if(visible){
+          $("#panel1").slideUp("slow");
+          visible = false;
+        } else {
+          $("#panel1").slideDown("slow");
+          visible = true;
+        }
+      });
+    });
+
+
+    $(document).ready(function(){
+      var visible = false;
+      $("#flip2").click(function(){
+        if(visible){
+          $("#panel2").slideUp("slow");
+          visible = false;
+        } else {
+          $("#panel2").slideDown("slow");
+          visible = true;
+        }
+      });
+    });
+
+    $(document).ready(function(){
+      var visible = false;
+      $("#flip3").click(function(){
+        if(visible){
+          $("#panel3").slideUp("slow");
+          visible = false;
+        } else {
+          $("#panel3").slideDown("slow");
+          visible = true;
+        }
+      });
+    });
+
+    $(document).ready(function(){
+      var visible = false;
+      $("#flip4").click(function(){
+        if(visible){
+          $("#panel4").slideUp("slow");
+          visible = false;
+        } else {
+          $("#panel4").slideDown("slow");
+          visible = true;
+        }
+      });
     });
     $(document).ready(function(){
-      $("#flip1").mouseenter(function(){
-        $("#panel1").slideToggle("slow");
+      var visible = false;
+      $("#flip5").click(function(){
+        if(visible){
+          $("#panel5").slideUp("slow");
+          visible = false;
+        } else {
+          $("#panel5").slideDown("slow");
+          visible = true;
+        }
       });
-        $("#flip1").mouseleave(function(){
-        $("#panel1").slideUp("slow");
+    });
+
+    $(document).ready(function(){
+      var visible = false;
+      $("#flip6").click(function(){
+        if(visible){
+          $("#panel6").slideUp("slow");
+          visible = false;
+        } else {
+          $("#panel6").slideDown("slow");
+          visible = true;
+        }
       });
     });
     $(document).ready(function(){
-      $("#flip2").mouseenter(function(){
-        $("#panel2").slideToggle("slow");
-      });
-        $("#flip2").mouseleave(function(){
-        $("#panel2").slideUp("slow");
+      var visible = false;
+      $("#flip7").click(function(){
+        if(visible){
+          $("#panel7").slideUp("slow");
+          visible = false;
+        } else {
+          $("#panel7").slideDown("slow");
+          visible = true;
+        }
       });
     });
+    $(document).ready(function(){
+      var visible = false;
+      $("#flip8").click(function(){
+        if(visible){
+          $("#panel8").slideUp("slow");
+          visible = false;
+        } else {
+          $("#panel8").slideDown("slow");
+          visible = true;
+        }
+      });
+    });
+
+
     </script>
 <head>
     <meta charset="UTF-8">
@@ -75,7 +169,7 @@
                     <li>
        
                     <a id="flip" class="nav-link text-white" href="#"><b>New</b> </a>
-                    <div id="panel" class="subnav1" style="display: none;">
+                    <div id="panel" class="subnav1 " style="display: none;">
                       <p><a id="ok" href="#">Launch Calendar</a></p>   
                       <p><a id="ok" href="#">Nitro Collection</a></p>
                       <p><a id="ok"  href="#">Style Your Palermo</a></p>
@@ -87,44 +181,87 @@
                  
                   </li>
                   <li>
-                    <a id="flip1" class="nav-link text-white" href="#"><b>Women</b>
+                    <a id="flip1" class="nav-link text-white" href="#"><b>Women</b></a>
                       <div id="panel1" class="subnav1"  style="display: none;">
                       <p><a id="ok" href="#">New & Trending</a></p>   
                       <p><a id="ok" href="#">Palermo</a></p>
                       <p><a id="ok"  href="#">Sneaker Store</a></p>
                       <p><a id="ok" href="#">Nitro Running</a></p>
-                      <p><a id="ok" href="#">Sale</a></p>
+                      <p><a id="ok" class="text-danger" href="#">Sale</a></p>
                       </div>
-                    </a>
+                    
                   </li>
                   <li class="nav-item">
-                    <a id="flip2" class="nav-link text-white" href="#"><b>Men</b>
+                    <a id="flip2" class="nav-link text-white" href="#"><b>Men</b></a>
                       <div id="panel2" class="subnav1 " style="display: none;">
                         <p><a id="ok" href="#">New & Trending</a></p>   
                         <p><a id="ok" href="#">Palermo</a></p>
                         <p><a id="ok"  href="#">Sneaker Store</a></p>
                         <p><a id="ok" href="#">Nitro Running</a></p>
-                        <p><a id="ok" href="#">Sale</a></p>
+                        <p><a id="ok" href="#">Motorsport </a></p>
+                        <p><a id="ok" class="text-danger" href="#">Sale</a></p>
                         </div>
-                    </a>
                   </li>
                   <li class="nav-item ">
-                    <a id="flip" class="nav-link text-white" href="#"><b>Kids</b></a>
+                    <a id="flip3" class="nav-link text-white" href="#"><b>Kids</b></a>
+                    <div id="panel3" class="subnav1" style="display: none;">
+                      <p><a id="ok" href="#">New & Trending</a></p>
+                      <p><a id="ok" href="#">School Store</a></p>
+                      <p><a id="ok" href="#">Shoes under ₹3000</a></p>
+                      <p><a id="ok" href="#">Cloyhing Under ₹1000</a></p>
+                      <p><a id="ok" class="text-danger" href="#">Sale</a></p>
+
+                    </div>
                   </li>
                   <li class="nav-item">
-                    <a id="flip" class="nav-link text-white" href="#"><b>Motorsport</b></a>
+                    <a id="flip4" class="nav-link text-white" href="#"><b>Motorsport</b></a>
+                    <div id="panel4" class="subnav1" style="display: none;" id="flip4">
+                      <p><a href="" id="ok">Motorsport Store</a></p>
+                      <p><a href="" id="ok">FORMULA 1</a></p>
+                      <p><a href="" id="ok">Scuderia Ferrari</a></p>
+                      <p><a href="" id="ok">Mercedes AMG Petronas</a></p>
+                      <p><a href="" id="ok">BMW M Motorsport</a></p>
+                      <p><a href="" id="ok">Porsche Legacy</a></p>
+                      <p><a href="" id="ok">Porsche Design</a></p>
+                      <p><a href="" id="ok">Shoes Design</a></p>
+                      <p><a href="" id="ok">Clothing</a></p>
+                      <p><a href="" id="ok">Accessories</a></p>
+                      
+                    </div>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#"><b>Collabrations</b></a>
+                    <a id="flip5" class="nav-link text-white" href="#"><b>Collabrations</b></a>
+                    <div id="panel5" class="subnav1" style="display: none;" id="flip5">
+                      <p><a href="" id="ok">Mercedes AMG Petronas</a></p>
+                      <p><a href="" id="ok">BMW M Motorsport</a></p>
+                      <p><a href="" id="ok">Porsche Legacy</a></p>
+                      <p><a href="" id="ok">Porsche Design</a></p>
+                
+                      <p><a href="" id="ok">Scuderia Ferrari</a></p>
+                      <p><a href="" id="ok">Motorsport Store</a></p>
+                      <p><a href="" id="ok">FORMULA 1</a></p>  
                   </li>
                   <li class="nav-item ">
-                    <a class="nav-link text-white" href="#"><b>Sports</b></a>
+                    <a id="flip6" class="nav-link text-white" href="#"><b>Sports</b></a>
+                    <div id="panel6" class="subnav1" style="display: none;" id="flip6">
+                      <p><a href="" id="ok">Running</a></p>
+                      <p><a href="" id="ok">Football</a></p>
+                      <p><a href="" id="ok">Basketball</a></p>
+                      <p><a href="" id="ok">Cricket</a></p>
+                      <p><a href="" id="ok">Training</a></p>
+
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#"><b>Outlet</b></a>
+                    <a id="flip7" class="nav-link text-white" href="#"><b>Outlet</b></a>
+                    <div id="panel7" class="subnav1" style="display: none;" id="flip7">
+                      <p><a href="" id="ok">Shop All Outlet</a></p>
+                      <p><a href="" id="ok">Sport Shoes Starting From ₹1799</a></p>
+                      <p><a href="" id="ok">Motorsport Collection Starting from ₹999</a></p>
+                      <p><a href="" id="ok">Everything under ₹999</a></p>
+                      <p><a href="" id="ok"> new to      outlet</a></p>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white" href="#"><b>Bulk Saving</b></a>
+                    <a id="flip8" class="nav-link text-white" href="#"><b>Bulk Saving</b></a>
                   </li>
                   <form id="social" class="d-flex d-none d-lg-flex gap-4">
                     <i class="fa-solid fa-magnifying-glass text-white "></i>
@@ -161,6 +298,22 @@
               </div>
           </div>
 
+          <div class=" container-fluid  d-flex justify-content-center align-items-center d-md-none">
+            <img src="media/zjcogvpd.png" width="100%" class="img-fluid" alt="">
+          </div>
+          <div class=" d-flex justify-content-center text-center d-md-none mt-5">
+            <div id="div3" class="row">
+              <h1 class="text2 "><b>NEW STYLES IN TOWN</b></h1>
+
+              <div  class="col-12">
+                <a id="btn2" class="m-3" href="#"><b>SHOP NOW</b></a>
+                <a id="btn2" href="#"><b>DISCOUNT SALE</b></a>
+                </div>
+            </div>
+        </div>
+
+
+
 
           <div id="div4" class="container-fluid d-none d-md-block">
             <div class="row align-items-center">
@@ -180,20 +333,7 @@
             </div>
           </div>
 
-          <div class=" container-fluid mt-5 d-flex justify-content-center align-items-center d-md-none">
-            <img src="media/puma.jpg" class="img-fluid" alt="">
-          </div>
-          <div class=" d-flex justify-content-center text-center d-md-none mt-5">
-            <div id="div3" class="row">
-              <h1 class="text2 "><b>NEW STYLES IN TOWN</b></h1>
-
-              <div  class="col-12">
-                <a id="btn2" class="m-3" href="#"><b>SHOP NOW</b></a>
-                <a id="btn2" href="#"><b>DISCOUNT SALE</b></a>
-                </div>
-            </div>
-        </div>
-
+     
 
 <!-- ------------------------------------------------------ -->
 
@@ -595,9 +735,12 @@
     </div>
   </div>
 </div>
+</div>
 
 
 <!-- ------------------------------------------------------ -->
+
+
 
 <div class="container pt-5 my-5">
   <div><h4>RECOMMENDED FOR YOU</h4></div>
@@ -694,7 +837,6 @@
 </div>
 
   </div>
-</div>
 </div>
 <!-- ------------------------------------------------------ -->
 <footer class="bg-dark text-white pt-5 d-none d-md-block">
