@@ -172,6 +172,9 @@ nav li a:hover{
 #text2{
   font-size: 20px;
 }
+#div3{
+  margin: 0;
+}
 #div4{
   margin-top: 2%;
   background-color: rgb(17, 16, 16);
